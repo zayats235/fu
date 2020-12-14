@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<form action="">
+			<h2>Анкета ученика</h2>
+			<fieldset>
+			<legend>Контактная информация</legend>
+		<input type="text" placeholder="Введите имя" ><br>
+		<input type="number" placeholder="Введите номер телефона"><br>
+		<input type="e-mail" placeholder="Введите e-mail"><br>
+		</fieldset>
+		<fieldset>
+			<legend>Личная информация</legend>
+			<label for="age">Ваш возраст</label>
+			<input id="age" type="numder" >
+			<label for="date">Дата рождения</label>
+			<input id="date" type="date" >
+			<label for="lesson">По какому курсу занимаетесь</label>
+			<select id="lesson">
+				<option>scratch</option>
+				<option>sites</option>
+				<option>c++</option>
+				<option>figma</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Обратная связь</legend>
+			<label>Посоветуете ли вы нас друзьям?</label>
+			<input type="radio" name="feedback" id="check1">
+			<label class="radio" for="check1">да</label>
+
+			<input type="radio" name="feedback" id="check2">
+			<label class="radio" for="check2">конечно</label>
+
+			<input type="radio" name="feedback" id="check3">
+			<label class="radio" for="check3">разве могут быть другие варианты</label>
+			<label for="text">Оставьте коментарий</label>
+			<textarea id="text"></textarea>
+		</fieldset>
+		<input type="checkbox" name="" id="check1">
+		<label for="check1" class="box">Разрешить обработку данных</label>
+		<input type="checkbox" name="" id="check2">
+		<label for="check2" class="box">Отправлять новости на почту</label>
+		<input type="submit" value="Отправить">
+		</form>
+</body>
+</html>
